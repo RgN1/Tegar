@@ -27,11 +27,11 @@ public class BaseClass {
 		
 			
 		}else if(browse.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "browserdriver/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "exefiles/chromedriver.exe");
 			
 			driver=new ChromeDriver();
 		}else if(browse.equals("ie")){
-System.setProperty("webdriver.ie.driver", "browserdriver/IEDriverServer.exe");
+System.setProperty("webdriver.ie.driver", "exefiles/IEDriverServer.exe");
 			
 			driver=new InternetExplorerDriver();
 		}
