@@ -37,6 +37,8 @@ System.setProperty("webdriver.ie.driver", "exefiles/IEDriverServer.exe");
 		}
 		
 		driver.get(url);
+		
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(22, TimeUnit.SECONDS);
 		
 		
